@@ -16,7 +16,7 @@ namespace PickleRick
         public Form1()
         {
             InitializeComponent();
-           
+           Hola Mundo
         }
 
 
