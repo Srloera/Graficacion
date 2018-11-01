@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PickleRick", "PickleRick\PickleRick.csproj", "{4F7AF5BE-013D-4CD9-84BC-B22A1FDFA592}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F7AF5BE-013D-4CD9-84BC-B22A1FDFA592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F7AF5BE-013D-4CD9-84BC-B22A1FDFA592}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F7AF5BE-013D-4CD9-84BC-B22A1FDFA592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F7AF5BE-013D-4CD9-84BC-B22A1FDFA592}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED739D89-8568-472B-8EFB-33643F9EF53F}
+	EndGlobalSection
+EndGlobal
