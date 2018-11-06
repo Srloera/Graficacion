@@ -81,9 +81,55 @@ namespace PickleRick
         private void pictureBox1_Paint(object sender, PaintEventArgs e)
         {
             Pen pnegro = new Pen(Color.Black, 2);
+            Pen PDelg = new Pen(Color.Black, 1);
 
 
-           e.Graphics.DrawBezier(pnegro, 0,34, 0,34,188,28,189,29);
+            #region Espejo
+            e.Graphics.DrawLine(pnegro, 2,34, 185,26);
+            e.Graphics.DrawLine(pnegro, 186, 26, 168, 185);
+            e.Graphics.DrawLine(pnegro, 168, 185, 125, 189);
+            e.Graphics.DrawLine(pnegro, 147, 210, 191, 208);
+            e.Graphics.DrawLine(pnegro, 172, 190, 190, 22);
+            e.Graphics.DrawLine(pnegro, 190, 19, 1, 26);
+            e.Graphics.DrawLine(pnegro, 130, 192, 172, 190);
+            e.Graphics.DrawLine(pnegro, 196, 217, 156, 217);
+            e.Graphics.DrawLine(pnegro, 190, 210, 194, 215);
+            e.Graphics.DrawLine(pnegro, 190, 208, 210, 4);
+            e.Graphics.DrawLine(pnegro, 195, 214, 214, 12);
+            e.Graphics.DrawLine(pnegro, 210, 5, 215, 11);
+            e.Graphics.DrawLine(pnegro, 0, 12, 209, 4);
+            #endregion
+
+            #region cabeza
+            e.Graphics.DrawBezier(pnegro, 393, 162, 402,138,407,130,434,126);
+            e.Graphics.DrawBezier(pnegro, 434,126, 454, 131, 466, 136, 470, 158);
+            e.Graphics.DrawBezier(pnegro, 393, 161, 392, 183, 392, 205, 393, 221);
+            e.Graphics.DrawBezier(pnegro, 470, 159, 469, 174, 470, 194, 470, 211);
+            e.Graphics.DrawBezier(pnegro, 469, 178,477 , 180, 478, 192, 471, 204);
+            #endregion
+
+            #region BrazoDerecho
+            //Hombro
+            e.Graphics.DrawLine(pnegro, 483, 210, 470, 211);
+            e.Graphics.DrawLine(pnegro, 189, 24, 189, 30);
+            e.Graphics.DrawLine(pnegro, 474, 248, 494, 242);
+            e.Graphics.DrawBezier(pnegro, 485, 210, 497, 216, 499, 230, 496,242);
+
+            //Brazo
+            e.Graphics.DrawLine(pnegro, 486, 247, 512, 278);
+            e.Graphics.DrawLine(pnegro, 476, 260, 506, 293);
+            e.Graphics.DrawBezier(pnegro, 506, 287, 506, 293, 513,299,518, 297);
+            e.Graphics.DrawLine(pnegro, 506, 287, 522,259);
+            e.Graphics.DrawBezier(pnegro, 519, 296, 521, 288, 526, 277, 532, 264);
+
+            #endregion
+
+            #region Cuerpo
+            e.Graphics.DrawLine(PDelg, 470, 212, 473, 231);
+            e.Graphics.DrawLine(pnegro, 471, 242, 475, 270);
+
+
+            #endregion
         }
 
         private void pictureBox1_MouseUp(object sender, MouseEventArgs e)
