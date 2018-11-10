@@ -28,3 +28,5 @@ C:\Users\the_g\OneDrive\Escritorio\PickleRick\PickleRick\obj\Debug\PickleRick.cs
 C:\Users\the_g\OneDrive\Escritorio\PickleRick\PickleRick\obj\Debug\PickleRick.csproj.CoreCompileInputs.cache
 C:\Users\the_g\OneDrive\Escritorio\PickleRick\PickleRick\obj\Debug\PickleRick.exe
 C:\Users\the_g\OneDrive\Escritorio\PickleRick\PickleRick\obj\Debug\PickleRick.pdb
+C:\Users\the_g\OneDrive\Escritorio\PickleRick\PickleRick\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\the_g\OneDrive\Escritorio\PickleRick\PickleRick\obj\Debug\PickleRick.csproj.CopyComplete
